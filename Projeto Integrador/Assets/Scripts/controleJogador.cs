@@ -6,9 +6,21 @@ public class controleJogador : MonoBehaviour
 {
     Rigidbody2D jogador;
     Animator animacao;
+    SpriteRenderer sprite;
 
     public float velocidade = 10;
     public float forcaPulo = 400;
+
+    public float velocidadeDeRotacao = 5;
+
+    public float empurraoVertical;
+    public float empurraoHorizontal;
+    public float duracaoEmpurrao = 1;
+    public float contagemEmpurrao;
+    public float duracaoInvencibilidade;
+    bool invencivel = false;
+    bool empurraoDireita;
+
     public GameObject cenario;
     public GameObject pivot;
 
@@ -16,6 +28,7 @@ public class controleJogador : MonoBehaviour
     {
         jogador = GetComponent<Rigidbody2D>();
         animacao = GetComponent<Animator>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -41,7 +54,9 @@ public class controleJogador : MonoBehaviour
         {
             if (animacao.GetBool("No chão"))
             {
-                jogador.AddForce(new Vector2(0, forcaPulo));
+                //jogador.AddForce(new Vector2(0, forcaPulo));
+                animacao.SetTrigger("Pulando");
+                jogador.velocity = new Vector2(0, forcaPulo);
             }
         }
     }
@@ -50,7 +65,22 @@ public class controleJogador : MonoBehaviour
     {
         float controle = Input.GetAxisRaw("Horizontal");
 
-        jogador.velocity = new Vector2(controle * velocidade, jogador.velocity.y);
+        if (contagemEmpurrao <= 0)
+        {
+            jogador.velocity = new Vector2(controle * velocidade, jogador.velocity.y);
+        }
+        else
+        {
+            if (empurraoDireita)
+            {
+                jogador.velocity = new Vector2(empurraoHorizontal, empurraoVertical);
+            }
+            else
+            {
+                jogador.velocity = new Vector2(-empurraoHorizontal, empurraoVertical);
+            }
+            contagemEmpurrao -= Time.deltaTime;
+        }
 
         if (controle == 0)
         {
@@ -59,6 +89,14 @@ public class controleJogador : MonoBehaviour
         else
         {
             animacao.SetBool("Andando", true);
+            if (controle < 0)
+            {
+                sprite.flipX = true;
+            }
+            else
+            {
+                sprite.flipX = false;
+            }
         }
     }
 
@@ -79,11 +117,48 @@ public class controleJogador : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        animacao.SetBool("No chão", true);
+        switch (collision.gameObject.tag)
+        {
+            case "Ground":
+                animacao.SetBool("No chão", true);
+                break;
+
+            case "Enemy":
+                if (!invencivel)
+                {
+                    StartCoroutine(Invulnerabilidade());
+                    contagemEmpurrao = duracaoEmpurrao;
+                    if (collision.gameObject.transform.position.x < transform.position.x)
+                    {
+                        empurraoDireita = true;
+                    }
+                    else
+                    {
+                        empurraoDireita = false;
+                    }
+                }
+                break;
+
+            default:
+                break;
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         animacao.SetBool("No chão", false);
+    }
+
+    IEnumerator Invulnerabilidade()
+    {
+        invencivel = true;
+        Physics2D.IgnoreLayerCollision(6, 7, true);
+        animacao.SetBool("Machucado", true);
+
+        yield return new WaitForSeconds(duracaoInvencibilidade);
+
+        invencivel = false;
+        Physics2D.IgnoreLayerCollision(6, 7, false);
+        animacao.SetBool("Machucado", false);
     }
 }

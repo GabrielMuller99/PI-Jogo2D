@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 330377810}
   m_Layer: 0
   m_Name: Square (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -794,9 +794,9 @@ GameObject:
   - component: {fileID: 748240910}
   - component: {fileID: 748240909}
   - component: {fileID: 748240912}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inimigo
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1010,7 +1010,7 @@ GameObject:
   - component: {fileID: 786223126}
   m_Layer: 0
   m_Name: Square (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1120,7 +1120,7 @@ GameObject:
   - component: {fileID: 858369329}
   - component: {fileID: 858369331}
   - component: {fileID: 858369332}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Jogador
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1242,7 +1242,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 10
-  forcaPulo: 400
+  forcaPulo: 5
+  velocidadeDeRotacao: 5
+  velocidadeDash: 20
+  duracaoDash: 1
+  empurraoVertical: 2
+  empurraoHorizontal: 8
+  duracaoEmpurrao: 0.3
+  contagemEmpurrao: 0
+  duracaoInvencibilidade: 1.3
   cenario: {fileID: 885306659}
   pivot: {fileID: 1362676148}
 --- !u!95 &858369332
@@ -1277,7 +1285,7 @@ GameObject:
   - component: {fileID: 885306662}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1391,9 +1399,9 @@ GameObject:
   - component: {fileID: 1163175624}
   - component: {fileID: 1163175623}
   - component: {fileID: 1163175622}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inimigo (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1561,7 +1569,7 @@ GameObject:
   - component: {fileID: 1621601373}
   m_Layer: 0
   m_Name: Square (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1814,9 +1822,9 @@ GameObject:
   - component: {fileID: 1820732507}
   - component: {fileID: 1820732506}
   - component: {fileID: 1820732505}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inimigo (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
