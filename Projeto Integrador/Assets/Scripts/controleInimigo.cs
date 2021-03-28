@@ -5,6 +5,7 @@ using UnityEngine;
 public class controleInimigo : MonoBehaviour
 {
     protected Rigidbody2D inimigo;
+    protected SpriteRenderer sprite;
 
     public float velocidade = 2;
     public Transform[] limites;
@@ -14,9 +15,10 @@ public class controleInimigo : MonoBehaviour
     void Start()
     {
         inimigo = GetComponent<Rigidbody2D>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
-    private void FixedUpdate()
+    public virtual void FixedUpdate()
     {
         Vector2 direcao = limites[posicaoLimites].position - transform.position;
         direcao.Normalize();
@@ -31,9 +33,18 @@ public class controleInimigo : MonoBehaviour
         }
 
         inimigo.velocity = direcao * velocidade;
+
+        if (direcao.x >= 0)
+        {
+            sprite.flipX = true;
+        }
+        else
+        {
+            sprite.flipX = false;
+        }
     }
 
-    void Update()
+    public virtual void Update()
     {
         
     }

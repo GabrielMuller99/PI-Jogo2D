@@ -149,6 +149,32 @@ public class controleJogador : MonoBehaviour
         animacao.SetBool("No chão", false);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        switch (collision.gameObject.tag)
+        {
+            case "Projectile":
+                if (!invencivel)
+                {
+                    StartCoroutine(Invulnerabilidade());
+                    contagemEmpurrao = duracaoEmpurrao;
+                    if (collision.gameObject.transform.position.x < transform.position.x)
+                    {
+                        empurraoDireita = true;
+                    }
+                    else
+                    {
+                        empurraoDireita = false;
+                    }
+                }
+
+                break;
+
+            default:
+                break;
+        }
+    }
+
     IEnumerator Invulnerabilidade()
     {
         invencivel = true;

@@ -56,10 +56,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\controleDano.cs" />
+    <Compile Include="Assets\Scripts\controleVida.cs" />
+    <Compile Include="Assets\Scripts\controleJogo.cs" />
     <Compile Include="Assets\Scripts\controleJogador.cs" />
     <Compile Include="Assets\Scripts\controleCamera.cs" />
-    <Compile Include="Assets\Scripts\menuPausa.cs" />
     <Compile Include="Assets\Scripts\controleInimigo.cs" />
+    <Compile Include="Assets\Scripts\menuPausa.cs" />
+    <Compile Include="Assets\Scripts\inimigoAtira.cs" />
+    <Compile Include="Assets\Scripts\controleProjetilInimigo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
