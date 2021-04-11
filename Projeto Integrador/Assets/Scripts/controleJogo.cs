@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class controleJogo : MonoBehaviour
 {
     [SerializeField] controleJogador jogador;
+    [SerializeField] controleInimigo inimigo;
 
     void Start()
     {

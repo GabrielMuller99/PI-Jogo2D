@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class controleInimigo : MonoBehaviour
 {
     protected Rigidbody2D inimigo;
     protected SpriteRenderer sprite;
+    [SerializeField] jogadorAtaca ataque;
 
+    public float vidaInimigo = 1;
     public float velocidade = 2;
     public Transform[] limites;
     public int posicaoLimites;
@@ -47,5 +50,15 @@ public class controleInimigo : MonoBehaviour
     public virtual void Update()
     {
         
+    }
+
+    public void AtualizarVida()
+    {
+        vidaInimigo -= ataque.dano;
+
+        if (vidaInimigo <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }

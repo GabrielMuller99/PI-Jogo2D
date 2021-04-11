@@ -9,17 +9,26 @@ public class controleProjetilInimigo : MonoBehaviour
 
     [SerializeField] float danoInimigo;
     [SerializeField] controleVida healthController;
+    [SerializeField] inimigoAtira atirador;
 
     void Start()
     {
         tiro = GetComponent<Rigidbody2D>();
         healthController = FindObjectOfType<controleVida>();
+        atirador = FindObjectOfType<inimigoAtira>();
         Destroy(gameObject, 2);
     }
 
     void Update()
     {
-        tiro.velocity = new Vector2(velocidade, 0);
+        if (atirador.direita)
+        {
+            tiro.velocity = new Vector2(velocidade, 0);
+        }
+        else if (atirador.esquerda)
+        {
+            tiro.velocity = new Vector2(-velocidade, 0);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -134,6 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b8aacb1412eb004a951677d3b761187, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 12
+  velocidade: 11
   danoInimigo: 1
   healthController: {fileID: 0}
+  atirador: {fileID: 0}

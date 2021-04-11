@@ -5,15 +5,15 @@ using UnityEngine;
 public class inimigoAtira : controleInimigo
 {
     [Header("Controles do atirador")]
-    public GameObject tiro;
+    public controleProjetilInimigo tiro;
     public Transform alvo;
     public Transform miraDireita;
     public Transform miraEsquerda;
     public float cadencia;
     [SerializeField] float delay;
+    public bool direita;
+    public bool esquerda;
     bool atirar = false;
-    bool direita;
-    bool esquerda;
 
     void Start()
     {
@@ -100,4 +100,5 @@ public class inimigoAtira : controleInimigo
             direita = false;
         }
     }
+
 }

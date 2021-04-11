@@ -7,6 +7,7 @@ public class controleJogador : MonoBehaviour
     Rigidbody2D jogador;
     Animator animacao;
     SpriteRenderer sprite;
+    public GameObject posicaoAtaque;
 
     public float velocidade = 10;
     public float forcaPulo = 400;
@@ -92,10 +93,14 @@ public class controleJogador : MonoBehaviour
             if (controle < 0)
             {
                 sprite.flipX = true;
+                jogador.transform.localScale = new Vector3(jogador.transform.localScale.x, jogador.transform.localScale.y, -1f);
+                posicaoAtaque.transform.localPosition = new Vector3(-1.17f, 0, 0);
             }
             else
             {
                 sprite.flipX = false;
+                jogador.transform.localScale = new Vector3(jogador.transform.localScale.x, jogador.transform.localScale.y, 1f);
+                posicaoAtaque.transform.localPosition = new Vector3(1.17f, 0, 0);
             }
         }
     }
