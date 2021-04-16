@@ -60,14 +60,13 @@
     <Compile Include="Assets\Scripts\controleDano.cs" />
     <Compile Include="Assets\Scripts\controleVida.cs" />
     <Compile Include="Assets\Scripts\controleProjetilInimigo.cs" />
+    <Compile Include="Assets\Scripts\inimigoVoa.cs" />
     <Compile Include="Assets\Scripts\controleJogo.cs" />
     <Compile Include="Assets\Scripts\controleJogador.cs" />
+    <Compile Include="Assets\Scripts\poolingTiroInimigo.cs" />
     <Compile Include="Assets\Scripts\controleCamera.cs" />
     <Compile Include="Assets\Scripts\controleInimigo.cs" />
     <Compile Include="Assets\Scripts\menuPausa.cs" />
-    <Compile Include="Assets\Scripts\inimigoVoa.cs" />
-    <Compile Include="Assets\Scripts\poolingTiroInimigo.cs" />
-    <Compile Include="Assets\Scripts\jogadorAtaca.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

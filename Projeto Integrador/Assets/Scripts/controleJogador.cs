@@ -7,10 +7,13 @@ public class controleJogador : MonoBehaviour
     Rigidbody2D jogador;
     Animator animacao;
     SpriteRenderer sprite;
-    public GameObject posicaoAtaque;
 
     public float velocidade = 10;
     public float forcaPulo = 400;
+    public float forcaAtaque = 10;
+
+    public GameObject marcador;
+    private GameObject inimigoMarcado;
 
     public float velocidadeDeRotacao = 5;
 
@@ -34,6 +37,7 @@ public class controleJogador : MonoBehaviour
 
     void Update()
     {
+        MarcarInimigoMaisProximo();
         Vector2 posicaoPlayer = jogador.position;
 
         if (Input.GetKeyDown(KeyCode.E))
@@ -55,10 +59,29 @@ public class controleJogador : MonoBehaviour
         {
             if (animacao.GetBool("No chão"))
             {
-                //jogador.AddForce(new Vector2(0, forcaPulo));
-                animacao.SetTrigger("Pulando");
-                jogador.velocity = new Vector2(0, forcaPulo);
+                jogador.AddForce(new Vector2(0, forcaPulo));
+                animacao.SetBool("Pulando", true);
+                animacao.SetBool("Caindo", false);
+                //jogador.velocity = new Vector2(0, forcaPulo);
             }
+            else
+            {
+                if (inimigoMarcado != null)
+                {
+                    StartCoroutine(Atacando());
+                    animacao.SetBool("Pulando", false);
+                    animacao.SetBool("Atacando", true);
+                    var direcao = (inimigoMarcado.transform.position - transform.position).normalized;
+                    //jogador.AddForce(direcao * forcaAtaque);
+                    jogador.velocity = new Vector2(direcao.x, direcao.y) * forcaAtaque;
+                }
+            }
+        }
+
+        if (jogador.velocity.y < -0.1f && animacao.GetBool("Atacando") == false)
+        {
+            animacao.SetBool("Caindo", true);
+            animacao.SetBool("Pulando", false);
         }
     }
 
@@ -94,15 +117,51 @@ public class controleJogador : MonoBehaviour
             {
                 sprite.flipX = true;
                 jogador.transform.localScale = new Vector3(jogador.transform.localScale.x, jogador.transform.localScale.y, -1f);
-                posicaoAtaque.transform.localPosition = new Vector3(-1.17f, 0, 0);
             }
             else
             {
                 sprite.flipX = false;
                 jogador.transform.localScale = new Vector3(jogador.transform.localScale.x, jogador.transform.localScale.y, 1f);
-                posicaoAtaque.transform.localPosition = new Vector3(1.17f, 0, 0);
             }
         }
+    }
+
+    public void MarcarInimigoMaisProximo()
+    {
+        GameObject[] inimigos = GameObject.FindGameObjectsWithTag("Enemy");
+        GameObject alvo = null;
+        Vector3 posicaoAtual = transform.position;
+        Vector3 diferenca;
+
+        float distancia = 10f;
+        float magnitude;
+
+        foreach (GameObject inimigo in inimigos)
+        {
+            diferenca = inimigo.transform.position - posicaoAtual;
+            magnitude = diferenca.sqrMagnitude;
+
+            if (magnitude < distancia)
+            {
+                alvo = inimigo;
+                distancia = magnitude;
+            }
+        }
+
+        if (alvo != null)
+        {
+            if (inimigoMarcado == null || inimigoMarcado.GetInstanceID() != alvo.GetInstanceID())
+            {
+                inimigoMarcado = alvo;
+                marcador.transform.position = alvo.transform.position;
+                ParentearMarcador(alvo);
+            }
+        }
+    }
+
+    public void ParentearMarcador(GameObject newParent)
+    {
+        marcador.transform.parent = newParent.transform;
     }
 
     public void SetParent(GameObject newParent)
@@ -126,10 +185,13 @@ public class controleJogador : MonoBehaviour
         {
             case "Ground":
                 animacao.SetBool("No chão", true);
+                animacao.SetBool("Caindo", false);
+                animacao.SetBool("Atacando", false);
+                animacao.SetBool("Pulando", false);
                 break;
 
             case "Enemy":
-                if (!invencivel)
+                if (!invencivel && animacao.GetBool("Atacando") == false)
                 {
                     StartCoroutine(Invulnerabilidade());
                     contagemEmpurrao = duracaoEmpurrao;
@@ -141,6 +203,16 @@ public class controleJogador : MonoBehaviour
                     {
                         empurraoDireita = false;
                     }
+                }
+
+                else if (animacao.GetBool("Atacando") == true)
+                {
+                    jogador.velocity = Vector2.zero;
+                    jogador.angularVelocity = 0f;
+                    jogador.velocity = Vector2.up * 6f;
+                    inimigoMarcado = null;
+                    collision.gameObject.SetActive(false);
+                    animacao.SetBool("Atacando", false);
                 }
                 break;
 
@@ -191,5 +263,12 @@ public class controleJogador : MonoBehaviour
         invencivel = false;
         Physics2D.IgnoreLayerCollision(6, 7, false);
         animacao.SetBool("Machucado", false);
+    }
+
+    IEnumerator Atacando()
+    {
+        jogador.tag = "Untagged";
+        yield return new WaitForSeconds(0.32f);
+        jogador.tag = "Player";
     }
 }
