@@ -25,8 +25,8 @@ public class controleJogador : MonoBehaviour
     bool invencivel = false;
     bool empurraoDireita;
 
-    public GameObject cenario;
-    public GameObject pivot;
+    /*public GameObject cenario;
+    public GameObject pivot;*/
 
     void Start()
     {
@@ -40,7 +40,7 @@ public class controleJogador : MonoBehaviour
         MarcarInimigoMaisProximo();
         Vector2 posicaoPlayer = jogador.position;
 
-        if (Input.GetKeyDown(KeyCode.E))
+        /*if (Input.GetKeyDown(KeyCode.E))
         {
             pivot.transform.position = posicaoPlayer;
             SetParent(pivot);
@@ -53,7 +53,7 @@ public class controleJogador : MonoBehaviour
             SetParent(pivot);
             pivot.transform.Rotate(0, 0, 90);
             DetachFromParent(cenario);
-        }
+        }*/
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -164,7 +164,7 @@ public class controleJogador : MonoBehaviour
         marcador.transform.parent = newParent.transform;
     }
 
-    public void SetParent(GameObject newParent)
+    /*public void SetParent(GameObject newParent)
     {
         cenario.transform.parent = newParent.transform;
 
@@ -177,7 +177,7 @@ public class controleJogador : MonoBehaviour
     public void DetachFromParent(GameObject rotacao)
     {
         rotacao.transform.parent = null;
-    }
+    }*/
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
