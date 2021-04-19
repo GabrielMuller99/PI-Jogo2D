@@ -7,12 +7,13 @@ public class controleJogador : MonoBehaviour
     Rigidbody2D jogador;
     Animator animacao;
     SpriteRenderer sprite;
+    [SerializeField]controleJogo jogo;
+    [SerializeField]ParticleSystem[] fogo;
 
     public float velocidade = 10;
     public float forcaPulo = 400;
     public float forcaAtaque = 10;
 
-    public GameObject marcador;
     private GameObject inimigoMarcado;
 
     public float velocidadeDeRotacao = 5;
@@ -153,28 +154,16 @@ public class controleJogador : MonoBehaviour
             if (inimigoMarcado == null || inimigoMarcado.GetInstanceID() != alvo.GetInstanceID())
             {
                 inimigoMarcado = alvo;
-                marcador.transform.position = alvo.transform.position;
-                ParentearMarcador(alvo);
             }
         }
     }
 
-    public void ParentearMarcador(GameObject newParent)
-    {
-        marcador.transform.parent = newParent.transform;
-    }
-
     /*public void SetParent(GameObject newParent)
     {
-        cenario.transform.parent = newParent.transform;
+        fogo.transform.parent = newParent.transform;
+    }*/
 
-        if (newParent.transform.parent != null)
-        {
-            Debug.Log("Player's Grand parent: " + cenario.transform.parent.parent.name);
-        }
-    }
-
-    public void DetachFromParent(GameObject rotacao)
+    /*public void DetachFromParent(GameObject rotacao)
     {
         rotacao.transform.parent = null;
     }*/
@@ -244,7 +233,10 @@ public class controleJogador : MonoBehaviour
                         empurraoDireita = false;
                     }
                 }
+                break;
 
+            case "Respawn":
+                jogo.Morte();
                 break;
 
             default:
@@ -268,7 +260,7 @@ public class controleJogador : MonoBehaviour
     IEnumerator Atacando()
     {
         jogador.tag = "Untagged";
-        yield return new WaitForSeconds(0.32f);
+        yield return new WaitForSeconds(0.4f);
         jogador.tag = "Player";
     }
 }

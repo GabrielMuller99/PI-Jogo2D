@@ -1,0 +1,2012 @@
+fileFormatVersion: 2
+guid: d1d63890e655d2147bb025acca5dec7e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Corpo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 218
+      y: 433
+      width: 202
+      height: 208
+    spriteID: 797cd89e6e87e8d45bda07cb148a7152
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1427, y: -462}
+  - name: BracoD
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 316
+      width: 77
+      height: 80
+    spriteID: eb724e06d514ecb46857958ebaad6942
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -988, y: -710}
+  - name: AntebracoD
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 867
+      width: 64
+      height: 140
+    spriteID: c887312d65e106e4bbffe60337a9e04f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1344, y: -151}
+  - name: MaoD
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 942
+      y: 797
+      width: 58
+      height: 55
+    spriteID: ee684e6d1a930954eadd95d671139cd4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -590, y: -191}
+  - name: BracoE
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 852
+      y: 522
+      width: 77
+      height: 80
+    spriteID: 628b077965296ad4ebb250be2414e64d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -898, y: -399}
+  - name: AntebracoE
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 712
+      y: 865
+      width: 64
+      height: 140
+    spriteID: fcf1afb49b0235249a59acc56df53302
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1117, y: 48}
+  - name: MaoE
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 4
+      width: 58
+      height: 55
+    spriteID: b3f830b7940fc75408d12b88a62c3537
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1355, y: -779}
+  - name: Corpo_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 428
+      y: 649
+      width: 202
+      height: 208
+    spriteID: 782489ee29573d043a77d8085b871f64
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -195, y: -184}
+  - name: BracoD_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 432
+      y: 522
+      width: 77
+      height: 80
+    spriteID: 982f696a4f495764ab7843681d3c9c06
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -134, y: -365}
+  - name: AntebracoD_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 928
+      y: 865
+      width: 64
+      height: 140
+    spriteID: d60b52e4e4a323a429dcceb09668dc64
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 401, y: 48}
+  - name: MaoD_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 694
+      y: 4
+      width: 58
+      height: 55
+    spriteID: 4ceed402b771f494ca447ef6615c03d2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 187, y: -778}
+  - name: BracoE_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 752
+      y: 218
+      width: 77
+      height: 80
+    spriteID: 4c5acfb0aa603554fb6c3f7a630db07a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -46, y: -698}
+  - name: AntebracoE_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 850
+      y: 649
+      width: 64
+      height: 140
+    spriteID: 621dd80bca588be4a82f22048046b075
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1, y: -224}
+  - name: MaoE_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 428
+      y: 4
+      width: 58
+      height: 55
+    spriteID: 068965fbbf6145e429fc0bfc368ad2bc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -470, y: -835}
+  - name: Corpo_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 649
+      width: 202
+      height: 208
+    spriteID: d47b235c9c20c4f40a435b3f0ed09f5d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 510, y: -160}
+  - name: BracoD_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 604
+      y: 433
+      width: 77
+      height: 80
+    spriteID: 334682fa09cba6544996bef826a4d4a1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 528, y: -444}
+  - name: AntebracoD_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 438
+      y: 218
+      width: 64
+      height: 140
+    spriteID: 0ce46270fbe25254e95a4a4ab4922f81
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 401, y: -599}
+  - name: MaoD_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 760
+      y: 4
+      width: 58
+      height: 55
+    spriteID: 4d8b77e1940b62f47b2646ea252fb9e9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 743, y: -778}
+  - name: BracoE_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 689
+      y: 433
+      width: 77
+      height: 80
+    spriteID: 4637ff3f9656078488da043a5915137d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 380, y: -444}
+  - name: AntebracoE_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 218
+      width: 64
+      height: 140
+    spriteID: 4b72e901035419047ba81575dd03d05c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 146, y: -599}
+  - name: MaoE_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 826
+      y: 4
+      width: 58
+      height: 55
+    spriteID: bc5b98a7b8f3c29438ed074ace1d2285
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 436, y: -778}
+  - name: Corpo_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 211
+      height: 206
+    spriteID: a87808520ea11f742a4a3f240e0005d3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2429, y: -831}
+  - name: BracoD_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 879
+      y: 316
+      width: 76
+      height: 84
+    spriteID: 0939c54672a487a4c95c833b0645bf78
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1620, y: -666}
+  - name: AntebracoD_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 572
+      y: 867
+      width: 43
+      height: 149
+    spriteID: 03a11e573d8b4e44387735d182f0a794
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1965, y: -167}
+  - name: MaoD_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 438
+      y: 366
+      width: 62
+      height: 59
+    spriteID: 396a1ae5f599b74479568f30db164677
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2079, y: -793}
+  - name: BracoE_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 223
+      y: 4
+      width: 61
+      height: 96
+    spriteID: 791fb84c795f07846b6cf0e2555f3262
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2276, y: -806}
+  - name: AntebracoE_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 428
+      y: 867
+      width: 64
+      height: 140
+    spriteID: bf9724b9309a7c745a711db1b499439d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2092, y: 144}
+  - name: MaoE_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 961
+      y: 585
+      width: 58
+      height: 55
+    spriteID: 534e66c2975272844bc7713d484c6c99
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1581, y: -104}
+  - name: Corpo_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 221
+      y: 218
+      width: 209
+      height: 207
+    spriteID: c1300046e7fd9b44c89f28dace66fe37
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1842, y: -683}
+  - name: BracoD_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 518
+      y: 433
+      width: 78
+      height: 81
+    spriteID: 75efee12111954d46a4334fe88521e3c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1609, y: -649}
+  - name: AntebracoD_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 724
+      y: 316
+      width: 147
+      height: 44
+    spriteID: 67fcb72ca89202e44a4d9853cab3daa9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1331, y: -817}
+  - name: MaoD_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 850
+      y: 792
+      width: 58
+      height: 62
+    spriteID: 58d3a261e4388f947bd4a1cd15e2241f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1170, y: -326}
+  - name: BracoE_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 634
+      y: 522
+      width: 101
+      height: 60
+    spriteID: 011c20cbb2d37144f9ef1053984e7c15
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1542, y: -399}
+  - name: AntebracoE_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 867
+      width: 64
+      height: 140
+    spriteID: a7e828927ec06d748a23e2cc1852c7ea
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1755, y: 50}
+  - name: MaoE_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 724
+      y: 368
+      width: 58
+      height: 55
+    spriteID: 106603945c2ea9f4fbdd855a96e734b1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1553, y: -415}
+  - name: Corpo_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 649
+      width: 204
+      height: 210
+    spriteID: b62bcdf99a7f8b84ca1d75dfd580b0fd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -955, y: -184}
+  - name: BracoD_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 867
+      y: 433
+      width: 85
+      height: 72
+    spriteID: c0060f096c6532445aaffe590604f746
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -480, y: -454}
+  - name: AntebracoD_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 856
+      y: 865
+      width: 64
+      height: 140
+    spriteID: fac7745f2f706fe4d8a2ee55c8ed4eaf
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -551, y: 48}
+  - name: MaoD_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 628
+      y: 4
+      width: 58
+      height: 55
+    spriteID: a2fa6286bd45b7143a7c4ad37b70f9c8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -805, y: -778}
+  - name: BracoE_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 667
+      y: 218
+      width: 77
+      height: 90
+    spriteID: 7d060c6a66132e242a54e2df8e7e938c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -456, y: -698}
+  - name: AntebracoE_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 334
+      y: 867
+      width: 84
+      height: 135
+    spriteID: de38e8d97a3b5b74ba12641b145edcfa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -729, y: -6}
+  - name: MaoE_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 4
+      width: 60
+      height: 58
+    spriteID: 6e2e1db034870cf4e89a0f1f64299a5c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -680, y: -835}
+  - name: Corpo_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 218
+      width: 209
+      height: 207
+    spriteID: e6ef647aa3fb6a443926919b7fc8aa08
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2795, y: -683}
+  - name: BracoD_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 432
+      y: 433
+      width: 78
+      height: 81
+    spriteID: cfda49f62e967454f8e037a64ce3085f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2434, y: -649}
+  - name: AntebracoD_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 837
+      y: 218
+      width: 147
+      height: 44
+    spriteID: e3bf3f10163749b488a013dbe73d0232
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2032, y: -915}
+  - name: MaoD_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 960
+      y: 433
+      width: 58
+      height: 62
+    spriteID: 400bb1b2850262846b2aeef405576e3f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2033, y: -685}
+  - name: BracoE_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 525
+      y: 522
+      width: 101
+      height: 60
+    spriteID: d3ab28267a0ea7e45887a76d9619806b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2269, y: -399}
+  - name: AntebracoE_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 942
+      y: 649
+      width: 64
+      height: 140
+    spriteID: 8b4f8cdf0a266fb4782258d4eeac6316
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1810, y: -168}
+  - name: MaoE_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 961
+      y: 522
+      width: 58
+      height: 55
+    spriteID: 3ae6c496f623d49438dbb67a0459458f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1775, y: -261}
+  - name: Corpo_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 433
+      width: 206
+      height: 208
+    spriteID: 18c495023545dd049bd8649ff5505f1f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -3132, y: -462}
+  - name: BracoD_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 582
+      y: 316
+      width: 63
+      height: 103
+    spriteID: 3e0a03ec919b5ce4292833e5599307d0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2701, y: -710}
+  - name: AntebracoD_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 867
+      width: 110
+      height: 115
+    spriteID: f9d964bd6ed63174c82c5a63acabad7f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -3313, y: -151}
+  - name: MaoD_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 366
+      width: 59
+      height: 59
+    spriteID: 324880f3d8a6841499bb7380325357a2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2886, y: -622}
+  - name: BracoE_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 743
+      y: 522
+      width: 101
+      height: 60
+    spriteID: 6fe255aad1bc9cc4caa3fdaf3dceb5d4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2393, y: -399}
+  - name: AntebracoE_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 865
+      width: 64
+      height: 140
+    spriteID: 2af7550fc6583654f8d5cd4332c5f840
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2454, y: 48}
+  - name: MaoE_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 790
+      y: 368
+      width: 58
+      height: 55
+    spriteID: 7b3a1c5453ef0ae42a271cbda03d84ae
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2288, y: -415}
+  - name: Corpo_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 649
+      width: 204
+      height: 210
+    spriteID: 742d99233f08bd541878f1eb18f8c3cb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -3633, y: -184}
+  - name: BracoD_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 774
+      y: 433
+      width: 85
+      height: 72
+    spriteID: 38d62703856f52a48a8b2b087a423fc3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2806, y: -454}
+  - name: AntebracoD_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 784
+      y: 865
+      width: 64
+      height: 140
+    spriteID: 5ffc9b6ca21ced74caff86543a06c263
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2757, y: 48}
+  - name: MaoD_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 562
+      y: 4
+      width: 58
+      height: 55
+    spriteID: 2048464bf27b24842ae50995d66d6917
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2959, y: -778}
+  - name: BracoE_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 582
+      y: 218
+      width: 77
+      height: 90
+    spriteID: 483f43ec2456a4f459cca13c142779d2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -3230, y: -698}
+  - name: AntebracoE_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 867
+      width: 84
+      height: 135
+    spriteID: d1949fd8cd86f624d84c6142fea5e35f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -3743, y: -6}
+  - name: MaoE_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 292
+      y: 4
+      width: 60
+      height: 58
+    spriteID: e158c80cfa4b7fd4297c6076032ffa8b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -3620, y: -835}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 1024
+  documentSize: {x: 4092, y: 1226}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 1024
+  textureActualHeight: 1024
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Pasta7 copiar 5
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 203
+    mosaicPosition: {x: 0, y: 0}
+  - name: Corpo
+    spriteName: Corpo_6
+    isGroup: 0
+    parentIndex: 0
+    spriteID: e6ef647aa3fb6a443926919b7fc8aa08
+    layerID: 202
+    mosaicPosition: {x: 4, y: 218}
+  - name: BracoD
+    spriteName: BracoD_6
+    isGroup: 0
+    parentIndex: 0
+    spriteID: cfda49f62e967454f8e037a64ce3085f
+    layerID: 201
+    mosaicPosition: {x: 432, y: 433}
+  - name: AntebracoD
+    spriteName: AntebracoD_6
+    isGroup: 0
+    parentIndex: 0
+    spriteID: e3bf3f10163749b488a013dbe73d0232
+    layerID: 200
+    mosaicPosition: {x: 837, y: 218}
+  - name: MaoD
+    spriteName: MaoD_6
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 400bb1b2850262846b2aeef405576e3f
+    layerID: 199
+    mosaicPosition: {x: 960, y: 433}
+  - name: BracoE
+    spriteName: BracoE_6
+    isGroup: 0
+    parentIndex: 0
+    spriteID: d3ab28267a0ea7e45887a76d9619806b
+    layerID: 198
+    mosaicPosition: {x: 525, y: 522}
+  - name: AntebracoE
+    spriteName: AntebracoE_6
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 8b4f8cdf0a266fb4782258d4eeac6316
+    layerID: 197
+    mosaicPosition: {x: 942, y: 649}
+  - name: MaoE
+    spriteName: MaoE_6
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 3ae6c496f623d49438dbb67a0459458f
+    layerID: 196
+    mosaicPosition: {x: 961, y: 522}
+  - name: Pasta7 copiar 4
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 135
+    mosaicPosition: {x: 0, y: 0}
+  - name: Corpo
+    spriteName: Corpo_3
+    isGroup: 0
+    parentIndex: 8
+    spriteID: a87808520ea11f742a4a3f240e0005d3
+    layerID: 134
+    mosaicPosition: {x: 4, y: 4}
+  - name: BracoD
+    spriteName: BracoD_3
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 0939c54672a487a4c95c833b0645bf78
+    layerID: 133
+    mosaicPosition: {x: 879, y: 316}
+  - name: AntebracoD
+    spriteName: AntebracoD_3
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 03a11e573d8b4e44387735d182f0a794
+    layerID: 132
+    mosaicPosition: {x: 572, y: 867}
+  - name: MaoD
+    spriteName: MaoD_3
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 396a1ae5f599b74479568f30db164677
+    layerID: 131
+    mosaicPosition: {x: 438, y: 366}
+  - name: BracoE
+    spriteName: BracoE_3
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 791fb84c795f07846b6cf0e2555f3262
+    layerID: 130
+    mosaicPosition: {x: 223, y: 4}
+  - name: AntebracoE
+    spriteName: AntebracoE_3
+    isGroup: 0
+    parentIndex: 8
+    spriteID: bf9724b9309a7c745a711db1b499439d
+    layerID: 129
+    mosaicPosition: {x: 428, y: 867}
+  - name: MaoE
+    spriteName: MaoE_3
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 534e66c2975272844bc7713d484c6c99
+    layerID: 128
+    mosaicPosition: {x: 961, y: 585}
+  - name: Pasta7 copiar 3
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 126
+    mosaicPosition: {x: 0, y: 0}
+  - name: Corpo
+    spriteName: Corpo_4
+    isGroup: 0
+    parentIndex: 16
+    spriteID: c1300046e7fd9b44c89f28dace66fe37
+    layerID: 125
+    mosaicPosition: {x: 221, y: 218}
+  - name: BracoD
+    spriteName: BracoD_4
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 75efee12111954d46a4334fe88521e3c
+    layerID: 124
+    mosaicPosition: {x: 518, y: 433}
+  - name: AntebracoD
+    spriteName: AntebracoD_4
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 67fcb72ca89202e44a4d9853cab3daa9
+    layerID: 123
+    mosaicPosition: {x: 724, y: 316}
+  - name: MaoD
+    spriteName: MaoD_4
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 58d3a261e4388f947bd4a1cd15e2241f
+    layerID: 122
+    mosaicPosition: {x: 850, y: 792}
+  - name: BracoE
+    spriteName: BracoE_4
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 011c20cbb2d37144f9ef1053984e7c15
+    layerID: 121
+    mosaicPosition: {x: 634, y: 522}
+  - name: AntebracoE
+    spriteName: AntebracoE_4
+    isGroup: 0
+    parentIndex: 16
+    spriteID: a7e828927ec06d748a23e2cc1852c7ea
+    layerID: 120
+    mosaicPosition: {x: 500, y: 867}
+  - name: MaoE
+    spriteName: MaoE_4
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 106603945c2ea9f4fbdd855a96e734b1
+    layerID: 119
+    mosaicPosition: {x: 724, y: 368}
+  - name: Pasta7 copiar 6
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 212
+    mosaicPosition: {x: 0, y: 0}
+  - name: Corpo
+    spriteName: Corpo_7
+    isGroup: 0
+    parentIndex: 24
+    spriteID: 18c495023545dd049bd8649ff5505f1f
+    layerID: 211
+    mosaicPosition: {x: 4, y: 433}
+  - name: BracoD
+    spriteName: BracoD_7
+    isGroup: 0
+    parentIndex: 24
+    spriteID: 3e0a03ec919b5ce4292833e5599307d0
+    layerID: 210
+    mosaicPosition: {x: 582, y: 316}
+  - name: AntebracoD
+    spriteName: AntebracoD_7
+    isGroup: 0
+    parentIndex: 24
+    spriteID: f9d964bd6ed63174c82c5a63acabad7f
+    layerID: 209
+    mosaicPosition: {x: 4, y: 867}
+  - name: MaoD
+    spriteName: MaoD_7
+    isGroup: 0
+    parentIndex: 24
+    spriteID: 324880f3d8a6841499bb7380325357a2
+    layerID: 208
+    mosaicPosition: {x: 510, y: 366}
+  - name: BracoE
+    spriteName: BracoE_7
+    isGroup: 0
+    parentIndex: 24
+    spriteID: 6fe255aad1bc9cc4caa3fdaf3dceb5d4
+    layerID: 207
+    mosaicPosition: {x: 743, y: 522}
+  - name: AntebracoE
+    spriteName: AntebracoE_7
+    isGroup: 0
+    parentIndex: 24
+    spriteID: 2af7550fc6583654f8d5cd4332c5f840
+    layerID: 206
+    mosaicPosition: {x: 640, y: 865}
+  - name: MaoE
+    spriteName: MaoE_7
+    isGroup: 0
+    parentIndex: 24
+    spriteID: 7b3a1c5453ef0ae42a271cbda03d84ae
+    layerID: 205
+    mosaicPosition: {x: 790, y: 368}
+  - name: Pasta7 copiar 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 72
+    mosaicPosition: {x: 0, y: 0}
+  - name: Corpo
+    spriteName: Corpo
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 797cd89e6e87e8d45bda07cb148a7152
+    layerID: 71
+    mosaicPosition: {x: 218, y: 433}
+  - name: BracoD
+    spriteName: BracoD
+    isGroup: 0
+    parentIndex: 32
+    spriteID: eb724e06d514ecb46857958ebaad6942
+    layerID: 70
+    mosaicPosition: {x: 653, y: 316}
+  - name: AntebracoD
+    spriteName: AntebracoD
+    isGroup: 0
+    parentIndex: 32
+    spriteID: c887312d65e106e4bbffe60337a9e04f
+    layerID: 69
+    mosaicPosition: {x: 216, y: 867}
+  - name: MaoD
+    spriteName: MaoD
+    isGroup: 0
+    parentIndex: 32
+    spriteID: ee684e6d1a930954eadd95d671139cd4
+    layerID: 68
+    mosaicPosition: {x: 942, y: 797}
+  - name: BracoE
+    spriteName: BracoE
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 628b077965296ad4ebb250be2414e64d
+    layerID: 67
+    mosaicPosition: {x: 852, y: 522}
+  - name: AntebracoE
+    spriteName: AntebracoE
+    isGroup: 0
+    parentIndex: 32
+    spriteID: fcf1afb49b0235249a59acc56df53302
+    layerID: 66
+    mosaicPosition: {x: 712, y: 865}
+  - name: MaoE
+    spriteName: MaoE
+    isGroup: 0
+    parentIndex: 32
+    spriteID: b3f830b7940fc75408d12b88a62c3537
+    layerID: 65
+    mosaicPosition: {x: 496, y: 4}
+  - name: Pasta7 copiar 8
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 230
+    mosaicPosition: {x: 0, y: 0}
+  - name: Corpo
+    spriteName: Corpo_8
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 742d99233f08bd541878f1eb18f8c3cb
+    layerID: 229
+    mosaicPosition: {x: 4, y: 649}
+  - name: BracoD
+    spriteName: BracoD_8
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 38d62703856f52a48a8b2b087a423fc3
+    layerID: 228
+    mosaicPosition: {x: 774, y: 433}
+  - name: AntebracoD
+    spriteName: AntebracoD_8
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 5ffc9b6ca21ced74caff86543a06c263
+    layerID: 227
+    mosaicPosition: {x: 784, y: 865}
+  - name: MaoD
+    spriteName: MaoD_8
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 2048464bf27b24842ae50995d66d6917
+    layerID: 226
+    mosaicPosition: {x: 562, y: 4}
+  - name: BracoE
+    spriteName: BracoE_8
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 483f43ec2456a4f459cca13c142779d2
+    layerID: 225
+    mosaicPosition: {x: 582, y: 218}
+  - name: AntebracoE
+    spriteName: AntebracoE_8
+    isGroup: 0
+    parentIndex: 40
+    spriteID: d1949fd8cd86f624d84c6142fea5e35f
+    layerID: 224
+    mosaicPosition: {x: 122, y: 867}
+  - name: MaoE
+    spriteName: MaoE_8
+    isGroup: 0
+    parentIndex: 40
+    spriteID: e158c80cfa4b7fd4297c6076032ffa8b
+    layerID: 223
+    mosaicPosition: {x: 292, y: 4}
+  - name: Pasta7 copiar 7
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 117
+    mosaicPosition: {x: 0, y: 0}
+  - name: Corpo
+    spriteName: Corpo_5
+    isGroup: 0
+    parentIndex: 48
+    spriteID: b62bcdf99a7f8b84ca1d75dfd580b0fd
+    layerID: 116
+    mosaicPosition: {x: 216, y: 649}
+  - name: BracoD
+    spriteName: BracoD_5
+    isGroup: 0
+    parentIndex: 48
+    spriteID: c0060f096c6532445aaffe590604f746
+    layerID: 115
+    mosaicPosition: {x: 867, y: 433}
+  - name: AntebracoD
+    spriteName: AntebracoD_5
+    isGroup: 0
+    parentIndex: 48
+    spriteID: fac7745f2f706fe4d8a2ee55c8ed4eaf
+    layerID: 114
+    mosaicPosition: {x: 856, y: 865}
+  - name: MaoD
+    spriteName: MaoD_5
+    isGroup: 0
+    parentIndex: 48
+    spriteID: a2fa6286bd45b7143a7c4ad37b70f9c8
+    layerID: 113
+    mosaicPosition: {x: 628, y: 4}
+  - name: BracoE
+    spriteName: BracoE_5
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 7d060c6a66132e242a54e2df8e7e938c
+    layerID: 112
+    mosaicPosition: {x: 667, y: 218}
+  - name: AntebracoE
+    spriteName: AntebracoE_5
+    isGroup: 0
+    parentIndex: 48
+    spriteID: de38e8d97a3b5b74ba12641b145edcfa
+    layerID: 111
+    mosaicPosition: {x: 334, y: 867}
+  - name: MaoE
+    spriteName: MaoE_5
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 6e2e1db034870cf4e89a0f1f64299a5c
+    layerID: 110
+    mosaicPosition: {x: 360, y: 4}
+  - name: Pasta7 copiar
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 63
+    mosaicPosition: {x: 0, y: 0}
+  - name: Corpo
+    spriteName: Corpo_1
+    isGroup: 0
+    parentIndex: 56
+    spriteID: 782489ee29573d043a77d8085b871f64
+    layerID: 62
+    mosaicPosition: {x: 428, y: 649}
+  - name: BracoD
+    spriteName: BracoD_1
+    isGroup: 0
+    parentIndex: 56
+    spriteID: 982f696a4f495764ab7843681d3c9c06
+    layerID: 61
+    mosaicPosition: {x: 432, y: 522}
+  - name: AntebracoD
+    spriteName: AntebracoD_1
+    isGroup: 0
+    parentIndex: 56
+    spriteID: d60b52e4e4a323a429dcceb09668dc64
+    layerID: 60
+    mosaicPosition: {x: 928, y: 865}
+  - name: MaoD
+    spriteName: MaoD_1
+    isGroup: 0
+    parentIndex: 56
+    spriteID: 4ceed402b771f494ca447ef6615c03d2
+    layerID: 59
+    mosaicPosition: {x: 694, y: 4}
+  - name: BracoE
+    spriteName: BracoE_1
+    isGroup: 0
+    parentIndex: 56
+    spriteID: 4c5acfb0aa603554fb6c3f7a630db07a
+    layerID: 58
+    mosaicPosition: {x: 752, y: 218}
+  - name: AntebracoE
+    spriteName: AntebracoE_1
+    isGroup: 0
+    parentIndex: 56
+    spriteID: 621dd80bca588be4a82f22048046b075
+    layerID: 57
+    mosaicPosition: {x: 850, y: 649}
+  - name: MaoE
+    spriteName: MaoE_1
+    isGroup: 0
+    parentIndex: 56
+    spriteID: 068965fbbf6145e429fc0bfc368ad2bc
+    layerID: 56
+    mosaicPosition: {x: 428, y: 4}
+  - name: Pasta7
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+  - name: Corpo
+    spriteName: Corpo_2
+    isGroup: 0
+    parentIndex: 64
+    spriteID: d47b235c9c20c4f40a435b3f0ed09f5d
+    layerID: 50
+    mosaicPosition: {x: 640, y: 649}
+  - name: BracoD
+    spriteName: BracoD_2
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 334682fa09cba6544996bef826a4d4a1
+    layerID: 49
+    mosaicPosition: {x: 604, y: 433}
+  - name: AntebracoD
+    spriteName: AntebracoD_2
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 0ce46270fbe25254e95a4a4ab4922f81
+    layerID: 48
+    mosaicPosition: {x: 438, y: 218}
+  - name: MaoD
+    spriteName: MaoD_2
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 4d8b77e1940b62f47b2646ea252fb9e9
+    layerID: 47
+    mosaicPosition: {x: 760, y: 4}
+  - name: BracoE
+    spriteName: BracoE_2
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 4637ff3f9656078488da043a5915137d
+    layerID: 46
+    mosaicPosition: {x: 689, y: 433}
+  - name: AntebracoE
+    spriteName: AntebracoE_2
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 4b72e901035419047ba81575dd03d05c
+    layerID: 45
+    mosaicPosition: {x: 510, y: 218}
+  - name: MaoE
+    spriteName: MaoE_2
+    isGroup: 0
+    parentIndex: 64
+    spriteID: bc5b98a7b8f3c29438ed074ace1d2285
+    layerID: 44
+    mosaicPosition: {x: 826, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: Inimigo redondoUnity Texture
+  prefabAssetName: Inimigo redondoUnity Prefab
+  spriteLibAssetName: Inimigo redondoUnity Sprite Lib
+  secondarySpriteTextures: []

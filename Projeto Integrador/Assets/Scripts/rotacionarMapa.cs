@@ -8,6 +8,9 @@ public class rotacionarMapa : MonoBehaviour
     public GameObject pivot;
     public GameObject localizacao;
     public int rotacionar;
+    public GameObject[] zonasParaAtivar;
+    public GameObject[] zonasParaDesativar;
+    GameObject[] troca;
 
     void Start()
     {
@@ -27,6 +30,20 @@ public class rotacionarMapa : MonoBehaviour
                 SetParent(pivot);
                 pivot.transform.Rotate(0, 0, rotacionar);
                 DetachFromParent(cenario);
+                rotacionar *= -1;
+
+                foreach (GameObject ativar in zonasParaAtivar)
+                {
+                    ativar.SetActive(true);
+                }
+                foreach (GameObject desativar in zonasParaDesativar)
+                {
+                    desativar.SetActive(false);
+                }
+
+                troca = zonasParaAtivar;
+                zonasParaAtivar = zonasParaDesativar;
+                zonasParaDesativar = troca;
                 break;
 
             default:

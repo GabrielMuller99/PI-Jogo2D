@@ -7,6 +7,7 @@ public class controleJogo : MonoBehaviour
 {
     [SerializeField] controleJogador jogador;
     [SerializeField] controleInimigo inimigo;
+    [SerializeField] GameObject telaDeMorte;
 
     void Start()
     {
@@ -20,6 +21,7 @@ public class controleJogo : MonoBehaviour
 
     public void Morte()
     {
+        telaDeMorte.SetActive(true);
         jogador.gameObject.SetActive(false);
         StartCoroutine(RecarregarCena());
     }

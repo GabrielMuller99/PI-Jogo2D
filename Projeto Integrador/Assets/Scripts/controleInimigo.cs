@@ -37,11 +37,13 @@ public class controleInimigo : MonoBehaviour
 
         if (direcao.x >= 0)
         {
-            sprite.flipX = true;
+            sprite.flipX = false;
+            inimigo.transform.localScale = new Vector3(inimigo.transform.localScale.x, inimigo.transform.localScale.y, 1f);
         }
         else
         {
-            sprite.flipX = false;
+            sprite.flipX = true;
+            inimigo.transform.localScale = new Vector3(inimigo.transform.localScale.x, inimigo.transform.localScale.y, -1f);
         }
     }
 

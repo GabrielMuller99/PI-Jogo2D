@@ -1,0 +1,1308 @@
+fileFormatVersion: 2
+guid: 84e73b34239902c4cac351febd2c4910
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1507302438468618715
+    second: Roda_personagem_0
+  - first:
+      213: 3117366326390069580
+    second: Roda_personagem_1
+  - first:
+      213: 7879759988873010095
+    second: Roda_personagem_2
+  - first:
+      213: -6808962820194248893
+    second: Roda_personagem_3
+  - first:
+      213: 6116479382137905701
+    second: Roda_personagem_4
+  - first:
+      213: -7627776557189732562
+    second: Roda_personagem_5
+  - first:
+      213: -805741647756607144
+    second: Roda_personagem_6
+  - first:
+      213: -4395277920744106747
+    second: Roda_personagem_7
+  - first:
+      213: 5228644506741529941
+    second: Roda_personagem_8
+  - first:
+      213: 8352694116362056259
+    second: Roda_personagem_9
+  - first:
+      213: 6636151384233813214
+    second: Roda_personagem_10
+  - first:
+      213: 3149716177962106885
+    second: Roda_personagem_11
+  - first:
+      213: 4292829953970368377
+    second: Roda_personagem_12
+  - first:
+      213: -7501929730318750761
+    second: Roda_personagem_13
+  - first:
+      213: 8000113199406230934
+    second: Roda_personagem_14
+  - first:
+      213: 8818079785580294863
+    second: Roda_personagem_15
+  - first:
+      213: -730903138540114851
+    second: Roda_personagem_16
+  - first:
+      213: -1805818344173447898
+    second: Roda_personagem_17
+  - first:
+      213: 2950082262424462518
+    second: Roda_personagem_18
+  - first:
+      213: -4938233800131805682
+    second: Roda_personagem_19
+  - first:
+      213: -691862358426329385
+    second: Roda_personagem_20
+  - first:
+      213: 7570056984034185396
+    second: Roda_personagem_21
+  - first:
+      213: 8101902893665665026
+    second: Roda_personagem_22
+  - first:
+      213: 1205273409504608158
+    second: Roda_personagem_23
+  - first:
+      213: 8424639809525172144
+    second: Roda_personagem_24
+  - first:
+      213: -3803020592381642757
+    second: Roda_personagem_25
+  - first:
+      213: -3590513601319431460
+    second: Roda_personagem_26
+  - first:
+      213: -7454956460731399055
+    second: Roda_personagem_27
+  - first:
+      213: -4186070021404215306
+    second: Roda_personagem_28
+  - first:
+      213: -2091458043823264092
+    second: Roda_personagem_29
+  - first:
+      213: 771691052934682692
+    second: Roda_personagem_30
+  - first:
+      213: 859810814241318147
+    second: Roda_personagem_31
+  - first:
+      213: 5164446840856963351
+    second: Roda_personagem_32
+  - first:
+      213: 8303178844411182086
+    second: Roda_personagem_33
+  - first:
+      213: -3584414186579371447
+    second: Roda_personagem_34
+  - first:
+      213: 2992953632166085387
+    second: Roda_personagem_35
+  - first:
+      213: -3513041406660305516
+    second: Roda_personagem_36
+  - first:
+      213: -4095219744294193447
+    second: Roda_personagem_37
+  - first:
+      213: -6780295722794535155
+    second: Roda_personagem_38
+  - first:
+      213: 9144131777942021251
+    second: Roda_personagem_39
+  - first:
+      213: -6518718864101081580
+    second: Roda_personagem_40
+  - first:
+      213: 1432585699912510111
+    second: Roda_personagem_41
+  - first:
+      213: -3951266021109163857
+    second: Roda_personagem_42
+  - first:
+      213: -6440918549825047303
+    second: Roda_personagem_43
+  - first:
+      213: -9067291053278285843
+    second: Roda_personagem_44
+  - first:
+      213: -8769022141565572511
+    second: Roda_personagem_45
+  - first:
+      213: 722533863265739767
+    second: Roda_personagem_46
+  - first:
+      213: 545987684419490419
+    second: Roda_personagem_47
+  - first:
+      213: -4734712353918282268
+    second: Roda_personagem_48
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Roda_personagem_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 5277
+        width: 475
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5267ff11b6cf41be0800000000000000
+      internalID: -1507302438468618715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_1
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 5233
+        width: 476
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c499e37482c134b20800000000000000
+      internalID: 3117366326390069580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_2
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 5202
+        width: 475
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab9c1c06f78a5d60800000000000000
+      internalID: 7879759988873010095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_3
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 5202
+        width: 476
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347da75f364b181a0800000000000000
+      internalID: -6808962820194248893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_4
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 5202
+        width: 478
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522a450779912e450800000000000000
+      internalID: 6116479382137905701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_5
+      rect:
+        serializedVersion: 2
+        x: 3319
+        y: 5202
+        width: 476
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2767aa82a1b42690800000000000000
+      internalID: -7627776557189732562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_6
+      rect:
+        serializedVersion: 2
+        x: 3959
+        y: 5202
+        width: 479
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851cab88d3e61d4f0800000000000000
+      internalID: -805741647756607144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_7
+      rect:
+        serializedVersion: 2
+        x: 4554
+        y: 5202
+        width: 476
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5051eeca406d003c0800000000000000
+      internalID: -4395277920744106747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_8
+      rect:
+        serializedVersion: 2
+        x: 5170
+        y: 5206
+        width: 475
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d5021f970ef8840800000000000000
+      internalID: 5228644506741529941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_9
+      rect:
+        serializedVersion: 2
+        x: 5761
+        y: 5206
+        width: 476
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342714b5b0bbae370800000000000000
+      internalID: 8352694116362056259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_10
+      rect:
+        serializedVersion: 2
+        x: 6337
+        y: 5206
+        width: 475
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed429fc2688581c50800000000000000
+      internalID: 6636151384233813214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 4270
+        width: 476
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5008bba0d2a06bb20800000000000000
+      internalID: 3149716177962106885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_12
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 4263
+        width: 484
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f6f874912339b30800000000000000
+      internalID: 4292829953970368377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_13
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 4266
+        width: 476
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dba86e38aac3e790800000000000000
+      internalID: -7501929730318750761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_14
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 4258
+        width: 495
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69da585819c160f60800000000000000
+      internalID: 8000113199406230934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_15
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 4266
+        width: 475
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2f09448dc106a70800000000000000
+      internalID: 8818079785580294863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_16
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 4262
+        width: 484
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c291ec77f4bd5f0800000000000000
+      internalID: -730903138540114851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_17
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 4266
+        width: 479
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62558aa98c170f6e0800000000000000
+      internalID: -1805818344173447898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_18
+      rect:
+        serializedVersion: 2
+        x: 4422
+        y: 4294
+        width: 488
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4adfdff2cc0f820800000000000000
+      internalID: 2950082262424462518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_19
+      rect:
+        serializedVersion: 2
+        x: 5030
+        y: 4270
+        width: 479
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ef05dc58ed77bb0800000000000000
+      internalID: -4938233800131805682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_20
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 3403
+        width: 476
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ded884c9d20666f0800000000000000
+      internalID: -691862358426329385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_21
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 3403
+        width: 480
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b092d618be3e0960800000000000000
+      internalID: 7570056984034185396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_22
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 3407
+        width: 475
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200c6ad81cdbf6070800000000000000
+      internalID: 8101902893665665026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_23
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 3403
+        width: 479
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ffeb6b7cdf9b010800000000000000
+      internalID: 1205273409504608158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_24
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 3404
+        width: 476
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7cc5765455ae470800000000000000
+      internalID: 8424639809525172144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_25
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 3407
+        width: 476
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7b895abe4f83bc0800000000000000
+      internalID: -3803020592381642757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_26
+      rect:
+        serializedVersion: 2
+        x: 3599
+        y: 3403
+        width: 479
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2952827eeeb2ec0800000000000000
+      internalID: -3590513601319431460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_27
+      rect:
+        serializedVersion: 2
+        x: 4262
+        y: 3399
+        width: 476
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1740a16d89caa8890800000000000000
+      internalID: -7454956460731399055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_28
+      rect:
+        serializedVersion: 2
+        x: 4898
+        y: 3403
+        width: 479
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f73a498e7718e5c0800000000000000
+      internalID: -4186070021404215306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2420
+        width: 581
+        height: 583
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aee74b7df5a9f2e0800000000000000
+      internalID: -2091458043823264092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_30
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 2400
+        width: 643
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448d48e8ce895ba00800000000000000
+      internalID: 771691052934682692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_31
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 2420
+        width: 599
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305a4ec4169aeeb00800000000000000
+      internalID: 859810814241318147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_32
+      rect:
+        serializedVersion: 2
+        x: 6276
+        y: 1785
+        width: 475
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719eaa21a0dcba740800000000000000
+      internalID: 5164446840856963351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_33
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 2400
+        width: 644
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cbaa7ba21da3370800000000000000
+      internalID: 8303178844411182086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_34
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 2404
+        width: 639
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ad011d94a914ec0800000000000000
+      internalID: -3584414186579371447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_35
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 2400
+        width: 644
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03897a987b198920800000000000000
+      internalID: 2992953632166085387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_36
+      rect:
+        serializedVersion: 2
+        x: 4003
+        y: 2420
+        width: 607
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d16ca147b2f3fc0800000000000000
+      internalID: -3513041406660305516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_37
+      rect:
+        serializedVersion: 2
+        x: 4638
+        y: 2400
+        width: 647
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6bd28075bda27c0800000000000000
+      internalID: -4095219744294193447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_38
+      rect:
+        serializedVersion: 2
+        x: 5365
+        y: 2424
+        width: 604
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d073bb2b6fc87e1a0800000000000000
+      internalID: -6780295722794535155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_39
+      rect:
+        serializedVersion: 2
+        x: 6013
+        y: 2404
+        width: 643
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3846893876b76ee70800000000000000
+      internalID: 9144131777942021251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_40
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1757
+        width: 479
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41efd921bbbd885a0800000000000000
+      internalID: -6518718864101081580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_41
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1780
+        width: 476
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ae6999a1191e310800000000000000
+      internalID: 1432585699912510111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_42
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 1745
+        width: 476
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa897be0d784a29c0800000000000000
+      internalID: -3951266021109163857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_43
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 1745
+        width: 475
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4347254b24d96a0800000000000000
+      internalID: -6440918549825047303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_44
+      rect:
+        serializedVersion: 2
+        x: 4079
+        y: 1752
+        width: 475
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def254ed3d28a2280800000000000000
+      internalID: -9067291053278285843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_45
+      rect:
+        serializedVersion: 2
+        x: 4718
+        y: 1753
+        width: 476
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ae27092dc2e4680800000000000000
+      internalID: -8769022141565572511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_46
+      rect:
+        serializedVersion: 2
+        x: 5653
+        y: 1781
+        width: 476
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3252278b4f60a00800000000000000
+      internalID: 722533863265739767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_47
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 897
+        width: 491
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372df8df7ecb39700800000000000000
+      internalID: 545987684419490419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roda_personagem_48
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 901
+        width: 492
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e51c0f133cea4eb0800000000000000
+      internalID: -4734712353918282268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

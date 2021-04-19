@@ -66,8 +66,9 @@
     <Compile Include="Assets\Scripts\poolingTiroInimigo.cs" />
     <Compile Include="Assets\Scripts\controleCamera.cs" />
     <Compile Include="Assets\Scripts\controleInimigo.cs" />
-    <Compile Include="Assets\Scripts\menuPausa.cs" />
     <Compile Include="Assets\Scripts\rotacionarMapa.cs" />
+    <Compile Include="Assets\Scripts\menuPausa.cs" />
+    <Compile Include="Assets\Scripts\ProximaFase.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
