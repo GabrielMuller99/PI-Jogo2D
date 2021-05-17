@@ -5,15 +5,17 @@ using UnityEngine;
 public class controleProjetilInimigo : MonoBehaviour
 {
     Rigidbody2D tiro;
+    SpriteRenderer sprite;
     public float velocidade;
 
-    [SerializeField] float danoInimigo;
+    [SerializeField] int danoInimigo;
     [SerializeField] controleVida healthController;
     [SerializeField] inimigoAtira atirador;
 
     void Start()
     {
         tiro = GetComponent<Rigidbody2D>();
+        sprite = GetComponent<SpriteRenderer>();
         healthController = FindObjectOfType<controleVida>();
         atirador = FindObjectOfType<inimigoAtira>();
         Destroy(gameObject, 2);
@@ -24,10 +26,13 @@ public class controleProjetilInimigo : MonoBehaviour
         if (atirador.direita)
         {
             tiro.velocity = new Vector2(velocidade, 0);
+            sprite.flipX = true;
+            
         }
         else if (atirador.esquerda)
         {
             tiro.velocity = new Vector2(-velocidade, 0);
+            sprite.flipX = false;
         }
     }
 

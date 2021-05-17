@@ -1,0 +1,951 @@
+fileFormatVersion: 2
+guid: a6f21069d9672a34eb4866681bba83a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2123839950204273120
+    second: Botoes_0
+  - first:
+      213: 6195372488032051050
+    second: Botoes_1
+  - first:
+      213: 1954815582050958573
+    second: Botoes_2
+  - first:
+      213: 4239113671915768327
+    second: Botoes_3
+  - first:
+      213: -9063634155224288020
+    second: Botoes_4
+  - first:
+      213: 5606714425602394352
+    second: Botoes_5
+  - first:
+      213: -8002348046292251207
+    second: Botoes_7
+  - first:
+      213: 8228395960242447409
+    second: Botoes_9
+  - first:
+      213: 2782133906195616423
+    second: Botoes_10
+  - first:
+      213: -7684340727003479405
+    second: Botoes_11
+  - first:
+      213: -5574654053148330919
+    second: Botoes_12
+  - first:
+      213: -4219144487787383201
+    second: Botoes_13
+  - first:
+      213: 818357428841719126
+    second: Botoes_14
+  - first:
+      213: 7851358407487775699
+    second: Botoes_15
+  - first:
+      213: 3797358262942993199
+    second: Botoes_16
+  - first:
+      213: -6978947954799268400
+    second: Botoes_17
+  - first:
+      213: -5698773699036763693
+    second: Botoes_18
+  - first:
+      213: -34422530885637121
+    second: Botoes_19
+  - first:
+      213: -7573917880169921810
+    second: Botoes_20
+  - first:
+      213: 8940930766827753979
+    second: Botoes_21
+  - first:
+      213: 6561082429242701869
+    second: Botoes_22
+  - first:
+      213: 2083403248500537798
+    second: Botoes_23
+  - first:
+      213: 1289543220596706403
+    second: Botoes_24
+  - first:
+      213: 5652911917317614024
+    second: Botoes_25
+  - first:
+      213: 8282650539035489441
+    second: Botoes_26
+  - first:
+      213: -2230627964224591356
+    second: Botoes_27
+  - first:
+      213: -7554407162830254369
+    second: Botoes_28
+  - first:
+      213: 6617081629248546336
+    second: Botoes_29
+  - first:
+      213: 6949674225078325429
+    second: Botoes_30
+  - first:
+      213: 8152491650202050981
+    second: Botoes_31
+  - first:
+      213: 3433658627474821524
+    second: Botoes_32
+  - first:
+      213: 9180389931585895560
+    second: Botoes_33
+  - first:
+      213: 5081685052654939946
+    second: Botoes_34
+  - first:
+      213: -1147148175657842271
+    second: Botoes_35
+  - first:
+      213: 3827020435399626935
+    second: Botoes_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Botoes_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 952
+        width: 342
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e185bf9e25697d10800000000000000
+      internalID: 2123839950204273120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_1
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 952
+        width: 342
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fd06014726af550800000000000000
+      internalID: 6195372488032051050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_2
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 952
+        width: 342
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decbb813a66e02b10800000000000000
+      internalID: 1954815582050958573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_3
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 952
+        width: 706
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a8a01cc6b54da30800000000000000
+      internalID: 4239113671915768327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 821
+        width: 706
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8c61f701d0fcd40800000000000000
+      internalID: 5606714425602394352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_7
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 821
+        width: 710
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd85b3a9d2f1f090800000000000000
+      internalID: -8002348046292251207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_9
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 768
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134a289a782213270800000000000000
+      internalID: 8228395960242447409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_10
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 768
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a21c5c1c002c9620800000000000000
+      internalID: 2782133906195616423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 689
+        width: 227
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39204e972dcbb5590800000000000000
+      internalID: -7684340727003479405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_12
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 689
+        width: 228
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954f668aca9d2a2b0800000000000000
+      internalID: -5574654053148330919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_13
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 689
+        width: 227
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56b26d31769275c0800000000000000
+      internalID: -4219144487787383201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_14
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 690
+        width: 428
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655a965eeb36b5b00800000000000000
+      internalID: 818357428841719126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_15
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 593
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3e5929fd0a5fc60800000000000000
+      internalID: 7851358407487775699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_16
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 593
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b8c9b883de2b430800000000000000
+      internalID: 3797358262942993199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_17
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 558
+        width: 439
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd2048afcbc52f90800000000000000
+      internalID: -6978947954799268400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_18
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 558
+        width: 439
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9239d9383e9e0b0800000000000000
+      internalID: -5698773699036763693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_19
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 558
+        width: 439
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbaa4af3e4b58ff0800000000000000
+      internalID: -34422530885637121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_20
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 417
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee20e7af0d904e690800000000000000
+      internalID: -7573917880169921810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_21
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 417
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1112e4921941c70800000000000000
+      internalID: 8940930766827753979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_22
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 426
+        width: 418
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28711115b5ad0b50800000000000000
+      internalID: 6561082429242701869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_23
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 426
+        width: 418
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9f4c6573cb9ec10800000000000000
+      internalID: 2083403248500537798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_24
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 426
+        width: 418
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c0e221ab065e110800000000000000
+      internalID: 1289543220596706403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 294
+        width: 424
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9e94a307d237e40800000000000000
+      internalID: 5652911917317614024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_26
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 294
+        width: 423
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a478e928c2e1f270800000000000000
+      internalID: 8282650539035489441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_27
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 294
+        width: 424
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a27565fa73b01e0800000000000000
+      internalID: -2230627964224591356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_28
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 242
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde06dad5ba592790800000000000000
+      internalID: -7554407162830254369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_29
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 242
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0266f19dea894db50800000000000000
+      internalID: 6617081629248546336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_30
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 167
+        width: 439
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b05b7203e3327060800000000000000
+      internalID: 6949674225078325429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_31
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 167
+        width: 438
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1a1ac46f7732170800000000000000
+      internalID: 8152491650202050981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_32
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 87
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4919792545ec6af20800000000000000
+      internalID: 3433658627474821524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_33
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 87
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cffb3c00c476f70800000000000000
+      internalID: 9180389931585895560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_34
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 87
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fe8e7a1a5c58640800000000000000
+      internalID: 5081685052654939946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_35
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 67
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a94d25efc28410f0800000000000000
+      internalID: -1147148175657842271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botoes_36
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 40
+        width: 413
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0d7204fce4c1530800000000000000
+      internalID: 3827020435399626935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

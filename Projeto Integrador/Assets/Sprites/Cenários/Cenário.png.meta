@@ -1,0 +1,1116 @@
+fileFormatVersion: 2
+guid: ab655acfde2f60447b9ad5d32a8a3627
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6880082317075273816
+    second: "Cen\xE1rio_0"
+  - first:
+      213: -1920193084084004571
+    second: "Cen\xE1rio_1"
+  - first:
+      213: -2840007020402585023
+    second: "Cen\xE1rio_2"
+  - first:
+      213: -760111366249819996
+    second: "Cen\xE1rio_3"
+  - first:
+      213: 9077440566049890319
+    second: "Cen\xE1rio_4"
+  - first:
+      213: 5258550665492120322
+    second: "Cen\xE1rio_5"
+  - first:
+      213: 3378685770020682689
+    second: "Cen\xE1rio_6"
+  - first:
+      213: -1874691398307574541
+    second: "Cen\xE1rio_7"
+  - first:
+      213: 1965113669361756903
+    second: "Cen\xE1rio_8"
+  - first:
+      213: -8918996510269114809
+    second: "Cen\xE1rio_9"
+  - first:
+      213: -6572261663135614708
+    second: "Cen\xE1rio_10"
+  - first:
+      213: 5724684705376537179
+    second: "Cen\xE1rio_11"
+  - first:
+      213: 9113385748564899668
+    second: "Cen\xE1rio_12"
+  - first:
+      213: -2506097122496771339
+    second: "Cen\xE1rio_13"
+  - first:
+      213: -3761309399215889114
+    second: "Cen\xE1rio_14"
+  - first:
+      213: 3610801251308704238
+    second: "Cen\xE1rio_15"
+  - first:
+      213: -4708499263137845163
+    second: "Cen\xE1rio_16"
+  - first:
+      213: -4897828190071449586
+    second: "Cen\xE1rio_17"
+  - first:
+      213: -6625340342816065632
+    second: "Cen\xE1rio_18"
+  - first:
+      213: 411591619731144651
+    second: "Cen\xE1rio_19"
+  - first:
+      213: 3286658351582244113
+    second: "Cen\xE1rio_20"
+  - first:
+      213: -7321128638424292591
+    second: "Cen\xE1rio_21"
+  - first:
+      213: 8715599608994595823
+    second: "Cen\xE1rio_22"
+  - first:
+      213: -8287811942952494353
+    second: "Cen\xE1rio_23"
+  - first:
+      213: 8649108548860043941
+    second: "Cen\xE1rio_24"
+  - first:
+      213: -4312542116911904516
+    second: "Cen\xE1rio_25"
+  - first:
+      213: -2115448368266323950
+    second: "Cen\xE1rio_26"
+  - first:
+      213: 4610800218775881675
+    second: "Cen\xE1rio_27"
+  - first:
+      213: -1607400730169465298
+    second: "Cen\xE1rio_28"
+  - first:
+      213: 4583923217612131835
+    second: "Cen\xE1rio_29"
+  - first:
+      213: 8452609378502552002
+    second: "Cen\xE1rio_30"
+  - first:
+      213: 6168842098177558075
+    second: "Cen\xE1rio_31"
+  - first:
+      213: 8978829075648207761
+    second: "Cen\xE1rio_32"
+  - first:
+      213: 7034328194232112219
+    second: "Cen\xE1rio_33"
+  - first:
+      213: -975742314771449244
+    second: "Cen\xE1rio_34"
+  - first:
+      213: -1875458681824582784
+    second: "Cen\xE1rio_35"
+  - first:
+      213: -762897185596701357
+    second: "Cen\xE1rio_36"
+  - first:
+      213: -1749494729804041413
+    second: "Cen\xE1rio_37"
+  - first:
+      213: -1297663028628287991
+    second: "Cen\xE1rio_38"
+  - first:
+      213: 1536696130721335586
+    second: "Cen\xE1rio_39"
+  - first:
+      213: -8879181982920968584
+    second: "Cen\xE1rio_40"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Cen\xE1rio_0"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2017
+        width: 459
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a72849b5990580a0800000000000000
+      internalID: -6880082317075273816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_1"
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 2017
+        width: 459
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529d20b409a1a55e0800000000000000
+      internalID: -1920193084084004571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_2"
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1915
+        width: 305
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142d94579a44698d0800000000000000
+      internalID: -2840007020402585023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_3"
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1915
+        width: 305
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a051f85dba8375f0800000000000000
+      internalID: -760111366249819996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_4"
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1836
+        width: 293
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00ef19b91c89fd70800000000000000
+      internalID: 9077440566049890319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_5"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1804
+        width: 459
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2034d0228ff1af840800000000000000
+      internalID: 5258550665492120322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_6"
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1804
+        width: 459
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbffb98ec083ee20800000000000000
+      internalID: 3378685770020682689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_7"
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1941
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc85641b12cbf5e0800000000000000
+      internalID: -1874691398307574541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_8"
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1781
+        width: 305
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea629d787c754b10800000000000000
+      internalID: 1965113669361756903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_9"
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1782
+        width: 305
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746f574cdeb593480800000000000000
+      internalID: -8918996510269114809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_10"
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1455
+        width: 265
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0932e5b6d2aac4a0800000000000000
+      internalID: -6572261663135614708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_11"
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1466
+        width: 140
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a841ba86a227f40800000000000000
+      internalID: 5724684705376537179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_12"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1466
+        width: 140
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4577154bd00497e70800000000000000
+      internalID: 9113385748564899668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_13"
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1466
+        width: 140
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa83f8e1fd883dd0800000000000000
+      internalID: -2506097122496771339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_14"
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1445
+        width: 46
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625266997052dcbc0800000000000000
+      internalID: -3761309399215889114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_15"
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1445
+        width: 46
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee19ac27b942c1230800000000000000
+      internalID: 3610801251308704238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_16"
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1445
+        width: 46
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550fa7beddc08aeb0800000000000000
+      internalID: -4708499263137845163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_17"
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1627
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0895eff53b670cb0800000000000000
+      internalID: -4897828190071449586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_18"
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1627
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7326e8f001e04a0800000000000000
+      internalID: -6625340342816065632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_19"
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1439
+        width: 383
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf3a9eb56446b500800000000000000
+      internalID: 411591619731144651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_20"
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1618
+        width: 117
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d61287b5e8c9d20800000000000000
+      internalID: 3286658351582244113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_21"
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1457
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113e7c7da40266a90800000000000000
+      internalID: -7321128638424292591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_22"
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1457
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe308aacaa704f870800000000000000
+      internalID: 8715599608994595823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_23"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1102
+        width: 329
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea9317d2f6cbfc80800000000000000
+      internalID: -8287811942952494353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_24"
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1316
+        width: 290
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2e896766ec70870800000000000000
+      internalID: 8649108548860043941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_25"
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1102
+        width: 329
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf80e822bc5c624c0800000000000000
+      internalID: -4312542116911904516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_26"
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1276
+        width: 216
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2185ecccaea64a2e0800000000000000
+      internalID: -2115448368266323950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_27"
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1278
+        width: 216
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc70e62be5adcff30800000000000000
+      internalID: 4610800218775881675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_28"
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1098
+        width: 122
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26ab826d8d51b9e0800000000000000
+      internalID: -1607400730169465298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_29"
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 1117
+        width: 187
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdcf6731ed5d9f30800000000000000
+      internalID: 4583923217612131835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_30"
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1155
+        width: 290
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9a7c62273bd4570800000000000000
+      internalID: 8452609378502552002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_31"
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1119
+        width: 216
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36495154312c9550800000000000000
+      internalID: 6168842098177558075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_32"
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1119
+        width: 216
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bd5f0f8753b9c70800000000000000
+      internalID: 8978829075648207761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_33"
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 921
+        width: 186
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5458b22934fe9160800000000000000
+      internalID: 7034328194232112219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_34"
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 876
+        width: 136
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46afabfc8877572f0800000000000000
+      internalID: -975742314771449244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_35"
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 987
+        width: 205
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0836ce6f34809f5e0800000000000000
+      internalID: -1875458681824582784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_36"
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 782
+        width: 719
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3550d5c3d05a965f0800000000000000
+      internalID: -762897185596701357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_37"
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 627
+        width: 136
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33bc9dffcb88b7e0800000000000000
+      internalID: -1749494729804041413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_38"
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 628
+        width: 136
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e047cc956cdfde0800000000000000
+      internalID: -1297663028628287991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_39"
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 629
+        width: 189
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229cc573df0735510800000000000000
+      internalID: 1536696130721335586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cen\xE1rio_40"
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 232
+        width: 716
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87672fbc70fc6c480800000000000000
+      internalID: -8879181982920968584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

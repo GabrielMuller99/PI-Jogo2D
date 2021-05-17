@@ -7,8 +7,12 @@ public class controleJogador : MonoBehaviour
     Rigidbody2D jogador;
     Animator animacao;
     SpriteRenderer sprite;
-    [SerializeField]controleJogo jogo;
-    [SerializeField]ParticleSystem[] fogo;
+    AudioSource idle;
+    [SerializeField] controleJogo jogo;
+    [SerializeField] controleVida healthController;
+    [SerializeField] ParticleSystem[] fogo;
+
+    public GameObject girando;
 
     public float velocidade = 10;
     public float forcaPulo = 400;
@@ -34,6 +38,7 @@ public class controleJogador : MonoBehaviour
         jogador = GetComponent<Rigidbody2D>();
         animacao = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
+        idle = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -41,29 +46,15 @@ public class controleJogador : MonoBehaviour
         MarcarInimigoMaisProximo();
         Vector2 posicaoPlayer = jogador.position;
 
-        /*if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Space) && jogo.possoJogar)
         {
-            pivot.transform.position = posicaoPlayer;
-            SetParent(pivot);
-            pivot.transform.Rotate(0, 0, -90);
-            DetachFromParent(cenario);
-        }
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            pivot.transform.position = posicaoPlayer;
-            SetParent(pivot);
-            pivot.transform.Rotate(0, 0, 90);
-            DetachFromParent(cenario);
-        }*/
+            controleSons.TocarAudio("pulo");
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
             if (animacao.GetBool("No chão"))
             {
                 jogador.AddForce(new Vector2(0, forcaPulo));
                 animacao.SetBool("Pulando", true);
                 animacao.SetBool("Caindo", false);
-                //jogador.velocity = new Vector2(0, forcaPulo);
             }
             else
             {
@@ -73,7 +64,6 @@ public class controleJogador : MonoBehaviour
                     animacao.SetBool("Pulando", false);
                     animacao.SetBool("Atacando", true);
                     var direcao = (inimigoMarcado.transform.position - transform.position).normalized;
-                    //jogador.AddForce(direcao * forcaAtaque);
                     jogador.velocity = new Vector2(direcao.x, direcao.y) * forcaAtaque;
                 }
             }
@@ -84,17 +74,27 @@ public class controleJogador : MonoBehaviour
             animacao.SetBool("Caindo", true);
             animacao.SetBool("Pulando", false);
         }
+
+        if (!jogo.possoJogar)
+        {
+            jogador.velocity = Vector2.zero;
+            animacao.SetBool("Morto", true);
+        }
     }
 
     private void FixedUpdate()
     {
         float controle = Input.GetAxisRaw("Horizontal");
 
-        if (contagemEmpurrao <= 0)
+        if (contagemEmpurrao <= 0 && jogo.possoJogar)
         {
+            if (!girando.GetComponent<AudioSource>().isPlaying && !animacao.GetBool("Pulando") && !animacao.GetBool("Machucado") && !animacao.GetBool("Caindo"))
+            {
+                girando.GetComponent<AudioSource>().Play();
+            }
             jogador.velocity = new Vector2(controle * velocidade, jogador.velocity.y);
         }
-        else
+        else if (jogo.possoJogar)
         {
             if (empurraoDireita)
             {
@@ -109,11 +109,13 @@ public class controleJogador : MonoBehaviour
 
         if (controle == 0)
         {
+            girando.GetComponent<AudioSource>().Stop();
             animacao.SetBool("Andando", false);
         }
         else
         {
             animacao.SetBool("Andando", true);
+
             if (controle < 0)
             {
                 sprite.flipX = true;
@@ -180,7 +182,7 @@ public class controleJogador : MonoBehaviour
                 break;
 
             case "Enemy":
-                if (!invencivel && animacao.GetBool("Atacando") == false)
+                if (!invencivel && animacao.GetBool("Atacando") == false && healthController.vidaJogador > 0)
                 {
                     StartCoroutine(Invulnerabilidade());
                     contagemEmpurrao = duracaoEmpurrao;
@@ -220,7 +222,7 @@ public class controleJogador : MonoBehaviour
         switch (collision.gameObject.tag)
         {
             case "Projectile":
-                if (!invencivel)
+                if (!invencivel && healthController.vidaJogador > 0)
                 {
                     StartCoroutine(Invulnerabilidade());
                     contagemEmpurrao = duracaoEmpurrao;
@@ -236,7 +238,13 @@ public class controleJogador : MonoBehaviour
                 break;
 
             case "Respawn":
-                jogo.Morte();
+                sprite.enabled = false;
+                jogo.MorteLimites();
+                break;
+
+            case "Finish":
+                idle.Pause();
+                gameObject.SetActive(false);
                 break;
 
             default:
@@ -246,6 +254,7 @@ public class controleJogador : MonoBehaviour
 
     IEnumerator Invulnerabilidade()
     {
+        controleSons.TocarAudio("dano");
         invencivel = true;
         Physics2D.IgnoreLayerCollision(6, 7, true);
         animacao.SetBool("Machucado", true);
@@ -259,6 +268,7 @@ public class controleJogador : MonoBehaviour
 
     IEnumerator Atacando()
     {
+        controleSons.TocarAudio("espinho");
         jogador.tag = "Untagged";
         yield return new WaitForSeconds(0.4f);
         jogador.tag = "Player";

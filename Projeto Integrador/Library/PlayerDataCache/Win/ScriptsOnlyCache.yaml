@@ -1,17 +1,23 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - LetterBoxer
+    - ProximaFase
     - controleCamera
     - controleDano
     - controleInimigo
     - controleJogador
     - controleJogo
     - controleProjetilInimigo
+    - controleSons
     - controleVida
     - inimigoAtira
     - inimigoVoa
     - menuPausa
+    - menuPrincipal
     - rotacionarMapa
+    DOTween.dll:
+    - DG.Tweening.Core.DOTweenSettings
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -47,10 +53,57 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
-    - UnityEngine.UI.Shadow
     - UnityEngine.UI.Text
   sceneClasses:
+    Assets/Scenes/Menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1490}
+    - Class: 114
+      Script: {instanceID: 2460}
+    - Class: 114
+      Script: {instanceID: 2606}
+    - Class: 114
+      Script: {instanceID: 2778}
+    - Class: 114
+      Script: {instanceID: 2988}
+    - Class: 114
+      Script: {instanceID: 3090}
+    - Class: 114
+      Script: {instanceID: 3484}
+    - Class: 114
+      Script: {instanceID: 177330}
+    - Class: 114
+      Script: {instanceID: 285744}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/PrimeiraFase.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -68,13 +121,21 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 58
       Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
     - Class: 61
+      Script: {instanceID: 0}
+    - Class: 66
       Script: {instanceID: 0}
     - Class: 70
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -85,43 +146,49 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1486}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1528}
+      Script: {instanceID: 1514}
     - Class: 114
-      Script: {instanceID: 1686}
+      Script: {instanceID: 1534}
     - Class: 114
-      Script: {instanceID: 2074}
+      Script: {instanceID: 1674}
     - Class: 114
-      Script: {instanceID: 2364}
+      Script: {instanceID: 2080}
     - Class: 114
-      Script: {instanceID: 2446}
+      Script: {instanceID: 2378}
     - Class: 114
-      Script: {instanceID: 2592}
+      Script: {instanceID: 2460}
     - Class: 114
-      Script: {instanceID: 2666}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 2764}
+      Script: {instanceID: 2680}
     - Class: 114
-      Script: {instanceID: 2974}
+      Script: {instanceID: 2778}
     - Class: 114
-      Script: {instanceID: 3076}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 3232}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 3462}
+      Script: {instanceID: 3246}
     - Class: 114
-      Script: {instanceID: 3612}
+      Script: {instanceID: 3486}
     - Class: 114
-      Script: {instanceID: 3690}
+      Script: {instanceID: 3636}
     - Class: 114
-      Script: {instanceID: 3844}
+      Script: {instanceID: 3714}
     - Class: 114
-      Script: {instanceID: 4616}
+      Script: {instanceID: 3868}
     - Class: 114
-      Script: {instanceID: 4644}
+      Script: {instanceID: 4650}
     - Class: 114
-      Script: {instanceID: 4874}
+      Script: {instanceID: 4678}
+    - Class: 114
+      Script: {instanceID: 4910}
+    - Class: 114
+      Script: {instanceID: 218496}
+    - Class: 114
+      Script: {instanceID: 285744}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -129,6 +196,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
@@ -147,15 +218,56 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 20
       Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 285744}
+    - Class: 115
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/TerceiraFase.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 285744}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -172,13 +284,19 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
+      Hash: a2cf04bff75b7b7fb2109685c28eca1f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ProximaFase
+  - hash:
+      serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: 61f16ee03969c2beb1b62b5dc7175b2f
+      Hash: 21fb1dc04ad3c0c98783f7687189a6fa
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: inimigoAtira
@@ -298,7 +416,7 @@ ScriptsOnlyBuild:
     className: EnumerableTestState
   - hash:
       serializedVersion: 2
-      Hash: c4addfcd06043e3bc699b991e2e67924
+      Hash: c93987cbd7824b037b8762eaabf46a32
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: controleDano
@@ -346,7 +464,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 5a96f79f6841230272c9afcca38b2905
+      Hash: d661e54648a96db13f75f42f2f0a6e9c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: controleVida
@@ -448,7 +566,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 0e3c6f372db9b13dd61261c7b54aec5f
+      Hash: a891a140f92dd9d065a063c87c8eb037
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: controleProjetilInimigo
@@ -482,6 +600,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 704dcd31abc789439bc3f3cd10b58c2b
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 179648033371456981a3c08cb9f47477
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenSettings
   - hash:
       serializedVersion: 2
       Hash: 1e07e719c51135765e374c0904aeeee5
@@ -526,7 +656,7 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
-      Hash: a921c9ac58381e5e38a7904cc8a61c4d
+      Hash: 430c69f77c097594e80fe889f2508046
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: controleJogo
@@ -538,7 +668,7 @@ ScriptsOnlyBuild:
     className: AudioPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 58888465a540ea48d171e3a905766828
+      Hash: 9119205a7228eec252aeecaa69145609
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: controleJogador
@@ -706,7 +836,7 @@ ScriptsOnlyBuild:
     className: controleInimigo
   - hash:
       serializedVersion: 2
-      Hash: 6430564ba21f46308e73247399ebe82c
+      Hash: c0c8adb28d511b05954a76f881bd6caa
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: rotacionarMapa
@@ -746,9 +876,29 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: c56653e936ab0b8f3174bdee239dfc19
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: menuPrincipal
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: controleSons
+  - hash:
+      serializedVersion: 2
+      Hash: f20e9fc1cf83f9662a90221d089fafee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LetterBoxer
   platform: 5
   scenePathNames:
+  - Assets/Scenes/Menu.unity
   - Assets/Scenes/PrimeiraFase.unity
   - Assets/Scenes/SegundaFase.unity
-  playerPath: "H:/IESB/PI 3\xBA SEMESTRE/Projeto Integrador/Builds/Segunda build/Projeto
+  - Assets/Scenes/TerceiraFase.unity
+  playerPath: "H:/IESB/PI 3\xBA SEMESTRE/Projeto Integrador/Builds/Terceira build/Projeto
     Integrador.exe"

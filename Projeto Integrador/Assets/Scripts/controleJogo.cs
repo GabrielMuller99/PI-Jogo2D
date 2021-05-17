@@ -8,9 +8,17 @@ public class controleJogo : MonoBehaviour
     [SerializeField] controleJogador jogador;
     [SerializeField] controleInimigo inimigo;
     [SerializeField] GameObject telaDeMorte;
+    [SerializeField] GameObject vidas;
+    [SerializeField] GameObject morteLoopPrefab;
+    [SerializeField] GameObject morteNormalPrefab;
+
+    public static controleJogo singleton;
+
+    public bool possoJogar = true;
 
     void Start()
     {
+        singleton = this;
         jogador.gameObject.SetActive(true);
     }
 
@@ -19,16 +27,26 @@ public class controleJogo : MonoBehaviour
         
     }
 
+    public void MorteLimites()
+    {
+        Instantiate(morteNormalPrefab, jogador.transform.position, jogador.transform.rotation);
+        possoJogar = false;
+        StartCoroutine(RecarregarCena());
+    }
+
     public void Morte()
     {
-        telaDeMorte.SetActive(true);
-        jogador.gameObject.SetActive(false);
+        Instantiate(morteNormalPrefab, jogador.transform.position, jogador.transform.rotation);
+        possoJogar = false;
         StartCoroutine(RecarregarCena());
     }
 
     IEnumerator RecarregarCena()
     {
+        controleSons.TocarAudio("morte");
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        vidas.SetActive(false);
+        telaDeMorte.SetActive(true);
+        jogador.gameObject.SetActive(false);
     }
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class inimigoAtira : controleInimigo
 {
     [Header("Controles do atirador")]
+    [SerializeField] Animator animacao;
     public controleProjetilInimigo tiro;
     public Transform alvo;
     public Transform miraDireita;
@@ -19,6 +20,7 @@ public class inimigoAtira : controleInimigo
     {
         inimigo = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
+        animacao = GetComponent<Animator>();
     }
 
     public override void Update()
@@ -27,6 +29,7 @@ public class inimigoAtira : controleInimigo
         {
             case true:
                 delay -= Time.deltaTime;
+                animacao.SetBool("Parado", true);
 
                 if (esquerda == true && delay < 0)
                 {
@@ -49,6 +52,7 @@ public class inimigoAtira : controleInimigo
     {
         if (alvo == null)
         {
+            animacao.SetBool("Parado", false);
             base.FixedUpdate();
         }
         else

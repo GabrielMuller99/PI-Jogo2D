@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class controleDano : MonoBehaviour
 {
-    [SerializeField] float danoInimigo;
+    [SerializeField] int danoInimigo;
     [SerializeField] controleVida healthController;
 
     private void OnCollisionEnter2D(Collision2D collision)

@@ -14,6 +14,9 @@ public class controleCamera : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.position = new Vector3(jogador.position.x, jogador.position.y, transform.position.z);
+        if (controleJogo.singleton.possoJogar)
+        {
+            transform.position = new Vector3(jogador.position.x, jogador.position.y, transform.position.z);
+        }
     }
 }

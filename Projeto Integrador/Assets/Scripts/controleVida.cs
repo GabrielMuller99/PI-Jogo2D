@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class controleVida : MonoBehaviour
 {
-    public float vidaJogador;
-    [SerializeField] Text vidaTexto;
+    public int vidaJogador;
+    [SerializeField] Image[] vidas;
     [SerializeField] controleJogo jogo; 
 
     private void Start()
@@ -18,10 +18,11 @@ public class controleVida : MonoBehaviour
     {
         if (vidaJogador > 0)
         {
-            vidaTexto.text = vidaJogador.ToString("0");
+            vidas[vidaJogador].enabled = false;
         }
         else
         {
+            vidas[vidaJogador].enabled = false;
             jogo.Morte();
         }
     }

@@ -1,0 +1,630 @@
+fileFormatVersion: 2
+guid: 73bceaf7b600fc14293f465e43b7168c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4735009412340236800
+    second: inimigo_que_atira_0
+  - first:
+      213: -2292788678152841916
+    second: inimigo_que_atira_1
+  - first:
+      213: 3982136759257921905
+    second: inimigo_que_atira_2
+  - first:
+      213: -3889796290290404176
+    second: inimigo_que_atira_3
+  - first:
+      213: -656610301305073360
+    second: inimigo_que_atira_4
+  - first:
+      213: -3237111554322172266
+    second: inimigo_que_atira_5
+  - first:
+      213: 4794784688967033466
+    second: inimigo_que_atira_6
+  - first:
+      213: 9160894916486787642
+    second: inimigo_que_atira_7
+  - first:
+      213: 1204179848990813578
+    second: inimigo_que_atira_8
+  - first:
+      213: 5223818983311988228
+    second: inimigo_que_atira_9
+  - first:
+      213: 9067831822496433865
+    second: inimigo_que_atira_10
+  - first:
+      213: 8143244176674715939
+    second: inimigo_que_atira_11
+  - first:
+      213: 5030317791432453487
+    second: inimigo_que_atira_12
+  - first:
+      213: 779884146888301939
+    second: inimigo_que_atira_13
+  - first:
+      213: -4403116207268208428
+    second: inimigo_que_atira_14
+  - first:
+      213: 3666443297982374900
+    second: inimigo_que_atira_15
+  - first:
+      213: 1268741359377205744
+    second: inimigo_que_atira_16
+  - first:
+      213: -5199431220191800441
+    second: inimigo_que_atira_17
+  - first:
+      213: -3464415440471204719
+    second: inimigo_que_atira_18
+  - first:
+      213: -1775951934412641799
+    second: inimigo_que_atira_19
+  - first:
+      213: 6542649967964816230
+    second: inimigo_que_atira_20
+  - first:
+      213: -2147101648005810046
+    second: inimigo_que_atira_21
+  - first:
+      213: -6601548817323854306
+    second: inimigo_que_atira_22
+  - first:
+      213: -5409858696116551657
+    second: inimigo_que_atira_23
+  - first:
+      213: -6142657986943951820
+    second: inimigo_que_atira_24
+  - first:
+      213: -138253576194694213
+    second: inimigo_que_atira_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: inimigo_que_atira_0
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1210
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e3451d60ed94eb0800000000000000
+      internalID: -4735009412340236800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1146
+        width: 248
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44599ad48d06e20e0800000000000000
+      internalID: -2292788678152841916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 982
+        width: 248
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179f796c844634730800000000000000
+      internalID: 3982136759257921905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_3
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 981
+        width: 248
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4bb9c02eaa40ac0800000000000000
+      internalID: -3889796290290404176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 981
+        width: 248
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03159dae86043e6f0800000000000000
+      internalID: -656610301305073360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_7
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 982
+        width: 248
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3270e9d369022f70800000000000000
+      internalID: 9160894916486787642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 839
+        width: 248
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8de7c0513b16b010800000000000000
+      internalID: 1204179848990813578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 952
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c602e6cff867dd70800000000000000
+      internalID: 9067831822496433865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_11
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 839
+        width: 248
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329f6f51f6d920170800000000000000
+      internalID: 8143244176674715939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 952
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d5c35ef74b2da00800000000000000
+      internalID: 779884146888301939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_14
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 838
+        width: 248
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d06301632df4e2c0800000000000000
+      internalID: -4403116207268208428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_17
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 838
+        width: 248
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783546e5ad8e7d7b0800000000000000
+      internalID: -5199431220191800441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 686
+        width: 248
+        height: 122
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cd55c138cebefc0800000000000000
+      internalID: -3464415440471204719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_19
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 686
+        width: 246
+        height: 134
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9aa23002d8a57e0800000000000000
+      internalID: -1775951934412641799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_20
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 686
+        width: 228
+        height: 144
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663834e3b792cca50800000000000000
+      internalID: 6542649967964816230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_21
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 686
+        width: 224
+        height: 147
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28835fd4d66f332e0800000000000000
+      internalID: -2147101648005810046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_22
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 547
+        width: 224
+        height: 125
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16f200c3569264a0800000000000000
+      internalID: -6601548817323854306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_23
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 547
+        width: 227
+        height: 122
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7104ae4bd225ce4b0800000000000000
+      internalID: -5409858696116551657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_24
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 547
+        width: 226
+        height: 123
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c5d772b15e0caa0800000000000000
+      internalID: -6142657986943951820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo_que_atira_25
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 547
+        width: 237
+        height: 126
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3ecfdda13d41ef0800000000000000
+      internalID: -138253576194694213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
