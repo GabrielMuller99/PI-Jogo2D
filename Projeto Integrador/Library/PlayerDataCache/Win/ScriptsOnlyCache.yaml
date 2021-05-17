@@ -88,8 +88,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3484}
     - Class: 114
       Script: {instanceID: 177330}
-    - Class: 114
-      Script: {instanceID: 285744}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -710,7 +708,7 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: 7020d2ca51b3fd2c78566ec71c7f57a6
+      Hash: 769ca22040b61a848d09b561aa4c9c90
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: controleCamera

@@ -5,12 +5,12 @@ using UnityEngine;
 public class controleCamera : MonoBehaviour
 {
     public Transform jogador;
-    public float distanciaDaCamera = 30.0f;
+    /*public float distanciaDaCamera = 30.0f;
 
     private void Awake()
     {
         GetComponent<UnityEngine.Camera>().orthographicSize = ((Screen.height / 2) / distanciaDaCamera);
-    }
+    }*/
 
     private void FixedUpdate()
     {
